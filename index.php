@@ -216,7 +216,6 @@
             <a style="
                   color: #4e342e;
                   font-size: 14px;
-
                   font-weight: 500;
                   line-height: 20px;
                   word-wrap: break-word;
@@ -239,14 +238,15 @@
                 gap: 8px;
                 display: flex;
               ">
-            <div style="
+            <a href="./menuJour.html" 
+            style="
                   color: #ffb74d;
                   font-size: 14px;
                   font-weight: 500;
                   line-height: 20px;
                 ">
               Menu du jour
-            </div>
+            </a>
           </button>
         </div>
       </div>
