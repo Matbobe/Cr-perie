@@ -103,7 +103,7 @@
           <a href="#">Accueil</a>
         </div>
         <a href="#">Contact</a>
-        <a href="#">Carte</a>
+        <a href="./menu.html">Carte</a>
         <a href="#">Photothèque</a>
         <a href="#">Fournisseurs</a>
       </div>
