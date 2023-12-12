@@ -157,7 +157,7 @@
                 cursor: pointer;
                 display: flex;
               ">
-            <a style="
+            <a href="./menuJour.html" style="
                   color: #4e342e;
                   font-size: 14px;
 
