@@ -6,19 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/index.css" />
   <title>Crêpe-Riz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-  <!-- <?php
+  <?php
   $db = new PDO('mysql:host=localhost;dbname=crepe-riz;charset=utf8', 'root', '');
   $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-  $query = $db->prepare('SELECT * FROM `guestbook`');
+  $query = $db->prepare('SELECT * FROM `guestbook` LIMIT 3');
   $query->execute();
   $guestbook = $query->fetchAll(PDO::FETCH_ASSOC);
 
-  var_dump($guestbook);
-  ?> -->
+
+  ?>
 
 
   <div style="
@@ -309,6 +310,47 @@
         </p>
       </div>
     </div>
+
+
+    <!-- Livre d'or -->
+    <div style="
+          pading: 64px 80px 64px 64px;
+          background: #f8f1e9;
+          display: flex;
+          flex-direction: column;
+          gap: 32px;
+        ">
+      <h2 style="
+              margin: 0 auto;
+              text-align: center;
+              color: #4e342e;
+              font-size: 36px;
+              font-weight: 800;
+              line-height: 40px;
+            ">
+        Le livre d'or
+      </h2>
+      <div class="flex flex-row gap-4">
+        <?php foreach ($guestbook as $entry): ?>
+          <div style="border: 1px solid black; padding: 16px; margin-bottom: 16px;">
+            <h2>
+              <?= $entry['name'] ?>
+            </h2>
+            <p>
+              <?= $entry['message'] ?>
+            </p>
+          </div>
+        <?php endforeach; ?>
+      </div>
+
+      <form action="index.php" method="post">
+        <input type="text" name="name" placeholder="Nom">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="message" placeholder="Message">
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </div>
   </div>
 </body>
 
