@@ -302,6 +302,13 @@
         </form>
       </div>
     </div>
+    <div style="width: 100%; height: 100%; padding-left: 32px; padding-right: 32px; background: #EEE7DF; justify-content: space-between; align-items: center; display: inline-flex">
+        <div style="justify-content: center; align-items: center; gap: 32px; display: flex">
+          <a href="https://twitter.com/toutencrepe?lang=fr"> <img style="width: 40px; height: 40px; border-radius: 6px" src="images/image4.png" /> </a>
+          <a href="https://www.facebook.com/p/Pot-Detain-100063470441363/"><img style="width: 40px; height: 40px; border-radius: 6px" src="images/image5.png" /></a>
+          <a href="https://www.instagram.com/creperie.saintecroix/?hl=fr"><img style="width: 40px; height: 40px; border-radius: 6px" src="images/image6.png" /></a>
+        </div>
+    </div>
   </div>
   </div>
 </body>
