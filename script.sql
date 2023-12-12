@@ -25,4 +25,6 @@ INSERT INTO NEWSLETTER (`email`) VALUES
 
 INSERT INTO GUESTBOOK (`name`, `email`, `message`) VALUES
   ('Apolline Gaillou', 'ApollineGaillou@gmail.com', 'Les crêpes c''est la vie !'),
-  ('Luce Rocheleau', 'LuceRocheleau@gmail.com', 'Superbe vu sur la mer ! Je recommande !');
+  ('Luce Rocheleau', 'LuceRocheleau@gmail.com', 'Superbe vu sur la mer ! Je recommande !'),
+  ('Dexter Descoteaux', 'Dex@gmail.com', 'J''ai adoré mon séjour !'),
+  ('Léonie Lefebvre', 'Léeh4@gmail.com', 'Avec mon mari nous avons passé un superbe séjour !');
