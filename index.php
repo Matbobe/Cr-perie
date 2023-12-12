@@ -20,9 +20,6 @@
 
 
   ?>
-
-
-  >>>>>>> e096194433e079b1905a4016708393769bee2e56
   <div style="
         width: 100%;
         height: 100%;
@@ -223,16 +220,6 @@
           Nos valeurs
         </h2>
       </div>
-      <div style="display: flex;">
-        <div>
-          <img src="drapeau-breton.jpg" alt="">
-          <p>Tradition Bretonne<br>
-            Nous nous engageons à préserver l'essence même de la tradition bretonne.
-            Nos crêpes sont confectionnées avec des recettes transmises de génération en génération,
-            honorant ainsi le savoir-faire ancestral qui fait la renommée des crêpes bretonnes.
-          </p>
-        </div>
-      </div>
       <div style="
             align-self: stretch;
             justify-content: space-between;
@@ -281,7 +268,8 @@
             </div>
           <?php endforeach; ?>
         </div>
-        <form action="index.php" method="post" class='flex flex-col gap-4'>
+        <form action="./api/gestbook.php" method="post" class='flex flex-col gap-4'>
+
           <h2 style="
               margin: 0 auto;
               text-align: center;
@@ -314,6 +302,13 @@
           <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>Envoyer</button>
         </form>
       </div>
+    </div>
+    <div style="width: 100%; height: 100%; padding-left: 32px; padding-right: 32px; background: #EEE7DF; justify-content: center; display: flex">
+        <div style="justify-content: center; align-items: center; gap: 32px; display: flex">
+          <a href="https://twitter.com/toutencrepe?lang=fr"> <img style="width: 40px; height: 40px; border-radius: 6px" src="images/image4.png" /> </a>
+          <a href="https://www.facebook.com/p/Pot-Detain-100063470441363/"><img style="width: 40px; height: 40px; border-radius: 6px" src="images/image5.png" /></a>
+          <a href="https://www.instagram.com/creperie.saintecroix/?hl=fr"><img style="width: 40px; height: 40px; border-radius: 6px" src="images/image6.png" /></a>
+        </div>
     </div>
   </div>
   </div>
