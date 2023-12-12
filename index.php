@@ -20,9 +20,6 @@
 
 
   ?>
-
-
-  >>>>>>> e096194433e079b1905a4016708393769bee2e56
   <div style="
         width: 100%;
         height: 100%;
@@ -222,16 +219,6 @@
             ">
           Nos valeurs
         </h2>
-      </div>
-      <div style="display: flex;">
-        <div>
-          <img src="drapeau-breton.jpg" alt="">
-          <p>Tradition Bretonne<br>
-            Nous nous engageons à préserver l'essence même de la tradition bretonne.
-            Nos crêpes sont confectionnées avec des recettes transmises de génération en génération,
-            honorant ainsi le savoir-faire ancestral qui fait la renommée des crêpes bretonnes.
-          </p>
-        </div>
       </div>
       <div style="
             align-self: stretch;
