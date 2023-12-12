@@ -1,87 +1,11 @@
-// CRÊPE-RIZ
-color: #4E342E;
- font-size: 32px;
- font-family: Inter;
- font-weight: 800;
- line-height: 35.56px;
- word-wrap: break-word
----
-// Accueil
-color: #4E342E;
- font-size: 24px;
- font-family: Inter;
- font-weight: 600;
- line-height: 32px;
- word-wrap: break-word
----
-// Contact
-color: #4E342E;
- font-size: 24px;
- font-family: Inter;
- font-weight: 600;
- line-height: 32px;
- word-wrap: break-word
----
-// Carte
-color: #4E342E;
- font-size: 24px;
- font-family: Inter;
- font-weight: 600;
- line-height: 32px;
- word-wrap: break-word
----
-// Photothèque
-color: #4E342E;
- font-size: 24px;
- font-family: Inter;
- font-weight: 600;
- line-height: 32px;
- word-wrap: break-word
----
-// Fournisseurs
-color: #4E342E;
- font-size: 24px;
- font-family: Inter;
- font-weight: 600;
- line-height: 32px;
- word-wrap: break-word
----
-// Bienvenue à Crêpe-Riz, votre destination gourmande à l'Ile de Ré!
-color: #4E342E;
- font-size: 36px;
- font-family: Inter;
- font-weight: 800;
- line-height: 40px;
- word-wrap: break-word
----
-// Réserver
-color: #4E342E;
- font-size: 14px;
- font-family: Inter;
- font-weight: 500;
- line-height: 20px;
- word-wrap: break-word
----
-// Menu du jour
-color: #FFB74D;
- font-size: 14px;
- font-family: Inter;
- font-weight: 500;
- line-height: 20px;
- word-wrap: break-word
----
-// Nos valeurs
-color: #4E342E;
- font-size: 36px;
- font-family: Inter;
- font-weight: 800;
- line-height: 40px;
- word-wrap: break-word
----
-// Bienvenue chez Crêpe-Riz, où chaque crêpe raconte une histoire de tradition, de passion et de qualité. Nous croyons en l'art authentique de la crêpe, et chaque bouchée que vous savourez chez nous reflète nos valeurs profondes.
-color: #4E342E;
- font-size: 30px;
- font-family: Inter;
- font-weight: 600;
- line-height: 36px;
- word-wrap: break-word
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
