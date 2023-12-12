@@ -257,13 +257,7 @@
 
 
     <!-- Livre d'or -->
-    <div style="
-          pading: 64px 80px 64px 64px;
-          background: #f8f1e9;
-          display: flex;
-          flex-direction: column;
-          gap: 32px;
-        ">
+    <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
       <h2 style="
               margin: 0 auto;
               text-align: center;
@@ -274,25 +268,52 @@
             ">
         Le livre d'or
       </h2>
-      <div class="flex flex-row gap-4">
-        <?php foreach ($guestbook as $entry) : ?>
-          <div style="border: 1px solid black; padding: 16px; margin-bottom: 16px;">
-            <h2>
-              <?= $entry['name'] ?>
-            </h2>
-            <p>
-              <?= $entry['message'] ?>
-            </p>
+      <div class='flex flex-row gap-12'>
+        <div class="flex flex-col gap-4">
+          <?php foreach ($guestbook as $entry): ?>
+            <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+              <h2 class='font-bold'>
+                <?= $entry['name'] ?>
+              </h2>
+              <p>
+                <?= $entry['message'] ?>
+              </p>
+            </div>
+          <?php endforeach; ?>
+        </div>
+        <form action="index.php" method="post" class='flex flex-col gap-4'>
+          <h2 style="
+              margin: 0 auto;
+              text-align: center;
+              color: #4e342e;
+              font-size: 28px;
+              font-weight: 600;
+            ">
+            Donner votre avis
+          </h2>
+          <div class='flex flex-row gap-2'>
+            <div class='flex flex-col'>
+              <!-- <label for="name" class='block mb-2 text-sm font-medium text-gray-900'>Nom</label> -->
+              <input type="text" name="name"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                placeholder="Nom">
+            </div>
+            <div class='flex flex-col'>
+              <!-- <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email</label> -->
+              <input type="email" name="email"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                placeholder="Email">
+            </div>
           </div>
-        <?php endforeach; ?>
+          <div>
+            <!-- <label for="message" class='block mb-2 text-sm font-medium text-gray-900'>Message</label> -->
+            <input type="text" name="message"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              placeholder="Message">
+          </div>
+          <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>Envoyer</button>
+        </form>
       </div>
-
-      <form action="index.php" method="post">
-        <input type="text" name="name" placeholder="Nom">
-        <input type="email" name="email" placeholder="Email">
-        <input type="text" name="message" placeholder="Message">
-        <button type="submit">Envoyer</button>
-      </form>
     </div>
   </div>
   </div>
