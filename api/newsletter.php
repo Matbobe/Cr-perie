@@ -1,6 +1,6 @@
 <?php
 
-$email = $_POST["emal"] ?? null;
+$email = $_POST["email"] ?? null;
 
 if ($email) {
   $db = new PDO('mysql:host=localhost;dbname=crepe-riz;charset=utf8', 'root', '');

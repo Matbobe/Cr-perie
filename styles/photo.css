@@ -14,7 +14,7 @@ h2 {
 }
 
 #scroll1 {
-  width: 50%;
+  width: 640px;
   overflow: auto;
   margin-bottom: 20px;
 }
@@ -27,7 +27,7 @@ h2 {
 }
 
 #scroll2 {
-  width: 50%;
+  width: 640px;
   overflow: auto;
 
   margin-top: 20px;
@@ -45,7 +45,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 ::-webkit-scrollbar {
   display: none;
@@ -54,7 +54,7 @@ body {
 #scroll1 img,
 #scroll2 img {
   height: 100vh;
-  width: 1280px;
+  width: 640px;
 }
 
 @keyframes mesImages {
