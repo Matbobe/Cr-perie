@@ -268,7 +268,8 @@
             </div>
           <?php endforeach; ?>
         </div>
-        <form action="index.php" method="post" class='flex flex-col gap-4'>
+        <form action="./api/gestbook.php" method="post" class='flex flex-col gap-4'>
+
           <h2 style="
               margin: 0 auto;
               text-align: center;
