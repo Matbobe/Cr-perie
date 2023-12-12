@@ -6,9 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/index.css" />
   <title>Crêpe-Riz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
+  <?php
+  $db = new PDO('mysql:host=localhost;dbname=crepe-riz;charset=utf8', 'root', '');
+  $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+  $query = $db->prepare('SELECT * FROM `guestbook` LIMIT 3');
+  $query->execute();
+  $guestbook = $query->fetchAll(PDO::FETCH_ASSOC);
+
+
+  ?>
+
+
+  >>>>>>> e096194433e079b1905a4016708393769bee2e56
   <div style="
         width: 100%;
         height: 100%;
@@ -63,6 +77,7 @@
             <path d="M36.4893 42.8353C30.1774 43.3116 23.9845 42.7014 17.9107 41.0046C15.5405 40.3436 13.3352 39.5033 11.2949 38.4837C9.28559 37.4791 7.3104 36.1612 5.36931 34.5302L4.37396 33.2279C4.62823 33.3135 4.87567 33.5429 5.11629 33.9163C5.26637 34.1482 5.56466 34.3522 6.01117 34.5284C6.03988 34.5401 6.0658 34.5575 6.08726 34.5796C6.10873 34.6017 6.12527 34.628 6.13582 34.6567C6.21768 34.8726 6.34668 35.0369 6.5228 35.1498C6.88125 35.3792 7.25148 35.6019 7.6335 35.8177C7.72032 35.8673 7.78544 35.9374 7.82885 36.0279C7.85985 36.0961 7.90823 36.1532 7.97396 36.1991C9.19443 37.0623 10.1414 37.6657 10.8149 38.0093C12.7535 39.0003 14.2977 39.6775 15.4475 40.0409C16.0044 40.2158 16.5706 40.3969 17.1461 40.5842C17.7799 40.7901 18.3535 40.9526 18.867 41.0716C21.6341 41.7104 23.7606 42.1197 25.2465 42.2995C26.2412 42.4198 27.2478 42.5296 28.2661 42.6288C29.1368 42.7144 30.1662 42.7541 31.3544 42.7479C33.0611 42.7392 34.7727 42.7684 36.4893 42.8353Z" fill="#170900" />
             <path d="M58.9544 34.1619C59.0524 34.2661 59.0139 34.3789 58.8391 34.5005C58.8552 34.3839 58.8273 34.3591 58.7553 34.4261L58.9544 34.1619Z" fill="#F78113" />
             <path d="M58.7554 34.426C58.8273 34.3591 58.8552 34.3839 58.8391 34.5005C58.3144 35.3414 57.8698 36.2307 57.2614 36.986C56.6598 37.734 55.9851 38.3888 55.2372 38.9507C53.5901 40.1898 51.8257 41.2124 49.9442 42.0186C47.755 42.9575 45.3693 43.6949 42.787 44.2307C39.2037 44.9724 35.5833 45.3383 31.9256 45.3284C30.6146 45.3259 29.3594 45.2676 28.16 45.1535C24.7578 44.8298 21.6236 44.2989 18.7572 43.5609C14.8912 42.5656 11.1665 40.9023 8.13024 38.2884C6.81055 37.1535 5.89024 35.9008 5.36931 34.5302C7.31039 36.1612 9.28559 37.4791 11.2949 38.4837C13.3352 39.5033 15.5405 40.3436 17.9107 41.0046C23.9845 42.7014 30.1774 43.3116 36.4893 42.8353C38.6995 42.6357 40.5054 42.3888 41.907 42.0949C44.9904 41.4499 48 40.5575 50.9358 39.4177C52.7702 38.7057 54.498 37.7922 56.1191 36.6772C57.0828 36.0149 57.9616 35.2645 58.7554 34.426Z" fill="#FFF1D5" />
+            >>>>>>> e096194433e079b1905a4016708393769bee2e56
           </g>
           <defs>
             <clipPath id="clip0_6_253">
@@ -208,6 +223,16 @@
           Nos valeurs
         </h2>
       </div>
+      <div style="display: flex;">
+        <div>
+          <img src="drapeau-breton.jpg" alt="">
+          <p>Tradition Bretonne<br>
+            Nous nous engageons à préserver l'essence même de la tradition bretonne.
+            Nos crêpes sont confectionnées avec des recettes transmises de génération en génération,
+            honorant ainsi le savoir-faire ancestral qui fait la renommée des crêpes bretonnes.
+          </p>
+        </div>
+      </div>
       <div style="
             align-self: stretch;
             justify-content: space-between;
@@ -228,8 +253,48 @@
           nous reflète nos valeurs profondes.
         </p>
       </div>
-      </div>
     </div>
+
+
+    <!-- Livre d'or -->
+    <div style="
+          pading: 64px 80px 64px 64px;
+          background: #f8f1e9;
+          display: flex;
+          flex-direction: column;
+          gap: 32px;
+        ">
+      <h2 style="
+              margin: 0 auto;
+              text-align: center;
+              color: #4e342e;
+              font-size: 36px;
+              font-weight: 800;
+              line-height: 40px;
+            ">
+        Le livre d'or
+      </h2>
+      <div class="flex flex-row gap-4">
+        <?php foreach ($guestbook as $entry) : ?>
+          <div style="border: 1px solid black; padding: 16px; margin-bottom: 16px;">
+            <h2>
+              <?= $entry['name'] ?>
+            </h2>
+            <p>
+              <?= $entry['message'] ?>
+            </p>
+          </div>
+        <?php endforeach; ?>
+      </div>
+
+      <form action="index.php" method="post">
+        <input type="text" name="name" placeholder="Nom">
+        <input type="email" name="email" placeholder="Email">
+        <input type="text" name="message" placeholder="Message">
+        <button type="submit">Envoyer</button>
+      </form>
+    </div>
+  </div>
   </div>
 </body>
 
