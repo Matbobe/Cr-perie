@@ -298,9 +298,12 @@
       </div>
     </div>
 
-    <!-- Presentation du personnels -->
-    <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
-      <h2 style="
+
+
+  </div>
+  <!-- Presentation du personnels -->
+  <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
+    <h2 style="
               margin: 0 auto;
               text-align: center;
               color: #4e342e;
@@ -308,111 +311,79 @@
               font-weight: 800;
               line-height: 40px;
             ">
-        Présentation du personnel
-      </h2>
-      <div style="width: 100%; height: 100%; display: flex; position: relative;">
-    <div style="width: 400px; height: 350px; background: #FFF1D5; border-radius: 40px; position: relative;">
-        <img style="width: 180px; height: 171px; border-radius: 40px; position: absolute; top: 9px; left: 10px;" src="./images/pierre.png" />
-        <div style="position: absolute; top: 40px; right: 24px; text-align: right;">
-            <span style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Responsable en Salle <br/></span>
-            <span style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Pierre Martin</span>
-        </div>
-        <div style="width: 368px; position: absolute; bottom: 0; right: 24px; color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word; padding-left: 24px;">
-            Pierre incarne l'hospitalité bretonne avec son sourire chaleureux et son service attentionné. En tant que responsable de la salle, il veille à ce que chaque client se sente accueilli et pris en charge. Sa connaissance approfondie du menu lui permet de recommander des combinaisons de crêpes parfaites.
-        </div>
-    </div>
+      Présentation du personnel
+    </h2>
+    <div class='flex flex-row gap-8 px-8'>
 
-    <div style="width: 400px; height: 350px; background: #FFF1D5; border-radius: 40px; position: relative;">
-        <img style="width: 180px; height: 171px; border-radius: 40px; position: absolute; top: 9px; left: 10px;" src="./images/elodie.png" />
-        <div style="position: absolute; top: 40px; right: 24px; text-align: right;">
-            <span style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Cuisinière <br/></span>
-            <span style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Elodie Gagnon</span>
-        </div>
-        <div style="width: 368px; position: absolute; bottom: 0; right: 24px; color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word; padding-left: 24px;">
-        Derrière les fourneaux, Élodie Gagnon apporte son expertise culinaire et son amour pour les ingrédients de qualité. Elle veille à ce que chaque crêpe soit préparée avec précision et passion, garantissant ainsi la saveur authentique qui fait la renommée de notre établissement.
-        </div>
-    </div>
-
-    <div style="width: 400px; height: 350px; background: #FFF1D5; border-radius: 40px; position: relative;">
-        <img style="width: 180px; height: 171px; border-radius: 40px; position: absolute; top: 9px; left: 10px;" src="./images/amandine.png" />
-        <div style="position: absolute; top: 40px; right: 24px; text-align: right;">
-            <span style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Serveuse <br/></span>
-            <span style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Amandine Dubois</span>
-        </div>
-        <div style="width: 368px; position: absolute; bottom: 0; right: 24px; color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word; padding-left: 24px;">
-        Amandine, notre serveur, ajoute une touche de grâce à chaque repas. Avec son charme et son professionnalisme, elle crée une expérience de service exceptionnelle. Passionnée, elle offre des recommandations personnalisées et s'assure que chaque visite est aussi délicieuse que mémorable.</div>
-    </div>
-
-    <div style="width: 400px; height: 350px; background: #FFF1D5; border-radius: 40px; position: relative;">
-        <img style="width: 180px; height: 171px; border-radius: 40px; position: absolute; top: 9px; left: 10px;" src="./images/Camille.png" />
-        <div style="position: absolute; top: 40px; right: 24px; text-align: right;">
-            <span style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Chef Crêpier  <br/></span>
-            <span style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Camille Le Roux</span>
-        </div>
-        <div style="width: 368px; position: absolute; bottom: 0; right: 24px; color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word; padding-left: 24px;">
-        Renommé pour sa maîtrise exceptionnelle de l'art de la crêpe, Camille Le Roux est notre chef crêpier émérite. Originaire de Bretagne, elle a hérité de sa grand-mère des secrets traditionnels qui font de nos crêpes de véritables délices.
-        </div>
-    </div>
-</div>
-
-
-    
-
-
-    <!-- Livre d'or -->
-    <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
-      <h2 style="
-              margin: 0 auto;
-              text-align: center;
-              color: #4e342e;
-              font-size: 36px;
-              font-weight: 800;
-              line-height: 40px;
-            ">
-        Récompenses
-      </h2>
-      <div class='flex flex-row gap-12'>
-        <div class="flex flex-col gap-4" style="width: 50%;">
-          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
-            <h2 class='font-bold'>
-              2021
-            </h2>
-            <p>
-              Première place du concours de la meilleure crêpe de l'Île de Ré
-            </p>
-          </div>
-          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
-            <h2 class='font-bold'>
-              2020
-            </h2>
-            <p>
-              Première étoile au Guide Michelin
-            </p>
-          </div>
-          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
-            <h2 class='font-bold'>
-              2019
-            </h2>
-            <p>
-              2 toques au Gault et Millau
-            </p>
+      <div style="background: #eee7df;" class="p-8 rounded-lg">
+        <div class="flex justify-between">
+          <img class="rounded-xl" src="./images/pierre.png" width="180px" height="171px" />
+          <div style="">
+            <span
+              style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Responsable
+              en Salle <br /></span>
+            <span
+              style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Pierre
+              Martin</span>
           </div>
         </div>
-        <div class="flex flex-col gap-4" style="width: 50%;">
-          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
-            <h2 class='font-bold'>
-              2018
-            </h2>
-            <p>
-              Meilleure crêperie de l'Île de Ré
-            </p>
-          </div>
+        <div style="color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word;"
+          class="mt-4">
+          Pierre incarne l'hospitalité bretonne avec son sourire chaleureux et son service attentionné. En tant que
+          responsable de la salle, il veille à ce que chaque client se sente accueilli et pris en charge. Sa
+          connaissance approfondie du menu lui permet de recommander des combinaisons de crêpes parfaites.
         </div>
       </div>
-      <!-- Presentation du personnels -->
-      <!-- Livre d'or -->
-      <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
-        <h2 style="
+      <div style="background: #eee7df;" class="p-8 rounded-lg">
+        <div class="flex justify-between">
+          <img class="rounded-xl" src="./images/Camille.png" width="180px" height="171px" />
+          <div style="">
+            <span
+              style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Chef
+              Crêpier <br /></span>
+            <span
+              style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Camille
+              Le Roux</span>
+          </div>
+        </div>
+        <div style="color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word;"
+          class="mt-4">
+          Renommé pour sa maîtrise exceptionnelle de l'art de la crêpe, Camille Le Roux est notre chef crêpier
+          émérite. Originaire de Bretagne, elle a hérité de sa grand-mère des secrets traditionnels qui font de nos
+          crêpes de véritables délices.
+        </div>
+      </div>
+
+      <div style="background: #eee7df;" class="p-8 rounded-lg">
+        <div class="flex justify-between">
+          <img class="rounded-xl" src="./images/amandine.png" width="180px" height="171px" />
+          <div style="">
+            <span
+              style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Serveuse
+              <br /></span>
+            <span
+              style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Amandine
+              Dubois</span>
+          </div>
+        </div>
+        <div style="color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word;"
+          class="mt-4">
+          Amandine, notre serveur, ajoute une touche de grâce à chaque repas. Avec son charme et son
+          professionnalisme, elle crée une expérience de service exceptionnelle. Passionnée, elle offre des
+          recommandations personnalisées et s'assure que chaque visite est aussi délicieuse que mémorable.
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
+
+
+
+  <!-- Livre d'or -->
+  <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
+    <h2 style="
               margin: 0 auto;
               text-align: center;
               color: #4e342e;
@@ -420,58 +391,109 @@
               font-weight: 800;
               line-height: 40px;
             ">
-          Le livre d'or
-        </h2>
-        <div class='flex flex-row gap-12'>
-          <div class="flex flex-col gap-4">
-            <?php foreach ($guestbook as $entry): ?>
-              <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
-                <h2 class='font-bold'>
-                  <?= $entry['name'] ?>
-                </h2>
-                <p>
-                  <?= $entry['message'] ?>
-                </p>
-              </div>
-            <?php endforeach; ?>
-          </div>
-          <form action="./api/gestbook.php" method="post" class='flex flex-col gap-4'>
+      Récompenses
+    </h2>
+    <div class='flex flex-row gap-12'>
+      <div class="flex flex-col gap-4" style="width: 50%;">
+        <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+          <h2 class='font-bold'>
+            2021
+          </h2>
+          <p>
+            Première place du concours de la meilleure crêpe de l'Île de Ré
+          </p>
+        </div>
+        <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+          <h2 class='font-bold'>
+            2020
+          </h2>
+          <p>
+            Première étoile au Guide Michelin
+          </p>
+        </div>
+        <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+          <h2 class='font-bold'>
+            2019
+          </h2>
+          <p>
+            2 toques au Gault et Millau
+          </p>
+        </div>
+      </div>
+      <div class="flex flex-col gap-4" style="width: 50%;">
+        <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+          <h2 class='font-bold'>
+            2018
+          </h2>
+          <p>
+            Meilleure crêperie de l'Île de Ré
+          </p>
+        </div>
+      </div>
+    </div>
 
-            <h2 style="
+    <!-- Livre d'or -->
+    <div class="px-6 py-8 flex flex-col w-full justify-center gap-8 bg-[#f8f1e9]">
+      <h2 style="
+              margin: 0 auto;
+              text-align: center;
+              color: #4e342e;
+              font-size: 36px;
+              font-weight: 800;
+              line-height: 40px;
+            ">
+        Le livre d'or
+      </h2>
+      <div class='flex flex-row gap-12'>
+        <div class="flex flex-col gap-4">
+          <?php foreach ($guestbook as $entry): ?>
+            <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+              <h2 class='font-bold'>
+                <?= $entry['name'] ?>
+              </h2>
+              <p>
+                <?= $entry['message'] ?>
+              </p>
+            </div>
+          <?php endforeach; ?>
+        </div>
+        <form action="./api/gestbook.php" method="post" class='flex flex-col gap-4'>
+
+          <h2 style="
               margin: 0 auto;
               text-align: center;
               color: #4e342e;
               font-size: 28px;
               font-weight: 600;
             ">
-              Donner votre avis
-            </h2>
-            <div class='flex flex-row gap-2'>
-              <div class='flex flex-col'>
-                <!-- <label for="name" class='block mb-2 text-sm font-medium text-gray-900'>Nom</label> -->
-                <input type="text" name="name"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                  placeholder="Nom">
-              </div>
-              <div class='flex flex-col'>
-                <!-- <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email</label> -->
-                <input type="email" name="email"
-                  class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                  placeholder="Email">
-              </div>
-            </div>
-            <div>
-              <!-- <label for="message" class='block mb-2 text-sm font-medium text-gray-900'>Message</label> -->
-              <input type="text" name="message"
+            Donner votre avis
+          </h2>
+          <div class='flex flex-row gap-2'>
+            <div class='flex flex-col'>
+              <!-- <label for="name" class='block mb-2 text-sm font-medium text-gray-900'>Nom</label> -->
+              <input type="text" name="name"
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                placeholder="Message">
+                placeholder="Nom">
             </div>
-            <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>Envoyer</button>
-          </form>
-        </div>
+            <div class='flex flex-col'>
+              <!-- <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email</label> -->
+              <input type="email" name="email"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+                placeholder="Email">
+            </div>
+          </div>
+          <div>
+            <!-- <label for="message" class='block mb-2 text-sm font-medium text-gray-900'>Message</label> -->
+            <input type="text" name="message"
+              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+              placeholder="Message">
+          </div>
+          <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>Envoyer</button>
+        </form>
       </div>
-      <div class="actualites-container" style="background: #f8f1e9; padding: 50px;">
-        <h2 style=" margin: 0 auto;
+    </div>
+    <div class="actualites-container" style="background: #f8f1e9; padding: 50px;">
+      <h2 style=" margin: 0 auto;
               text-align: center;
               color: #4e342e;
               font-size: 36px;
@@ -479,27 +501,27 @@
               line-height: 40px;
               margin-bottom: 20px
               ;">Actualités</h2>
-        <div class="actualites" style="display: flex; flex-direction: column; gap: 20px;">
-          <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-            <h3 style="font-weight: bold;">Nouveau Menu de Saison</h3>
-            <p>Découvrez notre nouveau menu printanier, avec des ingrédients frais et locaux de l'Île de Ré.</p>
-          </article>
-          <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-            <h3 style="font-weight: bold;">Événement Crêpes et Musique</h3>
-            <p>Rejoignez-nous ce samedi pour une soirée crêpes avec musique live, dès 19h.</p>
-          </article>
-          <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-            <h3 style="font-weight: bold;">Ateliers de Crêpes pour Enfants</h3>
-            <p>Inscrivez vos enfants à nos ateliers culinaires pour apprendre l'art de la crêpe!</p>
-          </article>
-        </div>
+      <div class="actualites" style="display: flex; flex-direction: column; gap: 20px;">
+        <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
+          <h3 style="font-weight: bold;">Nouveau Menu de Saison</h3>
+          <p>Découvrez notre nouveau menu printanier, avec des ingrédients frais et locaux de l'Île de Ré.</p>
+        </article>
+        <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
+          <h3 style="font-weight: bold;">Événement Crêpes et Musique</h3>
+          <p>Rejoignez-nous ce samedi pour une soirée crêpes avec musique live, dès 19h.</p>
+        </article>
+        <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
+          <h3 style="font-weight: bold;">Ateliers de Crêpes pour Enfants</h3>
+          <p>Inscrivez vos enfants à nos ateliers culinaires pour apprendre l'art de la crêpe!</p>
+        </article>
       </div>
-
     </div>
-    <!-- Newsletter -->
-    <div class="w-full bg-[#eee7df] py-12 px-10 flex flex-col gap-12 items-center">
-      <div style="width: 100%; align-items: center; display: inline-flex">
-        <h2 style="
+
+  </div>
+  <!-- Newsletter -->
+  <div class="w-full bg-[#eee7df] py-12 px-10 flex flex-col gap-12 items-center">
+    <div style="width: 100%; align-items: center; display: inline-flex">
+      <h2 style="
               margin: 0 auto;
               text-align: center;
               color: #4e342e;
@@ -507,16 +529,16 @@
               font-weight: 800;
               line-height: 40px;
             ">
-          Newsletter
-        </h2>
-      </div>
-      <div style="
+        Newsletter
+      </h2>
+    </div>
+    <div style="
             align-self: stretch;
             justify-content: space-between;
             align-items: center;
             display: inline-flex;
           ">
-        <p style="
+      <p style="
               flex: 1 1 0;
               text-align: center;
               color: #4e342e;
@@ -524,22 +546,22 @@
               font-weight: 600;
               line-height: 36px;
             ">
-          Inscrivez-vous à notre newsletter pour recevoir les dernières
-          nouvelles de Crêpe-Riz.
-        </p>
-      </div>
-      <form action="./api/newsletter.php" method="post" class='flex flex-row gap-2 w-full max-w-lg'>
-        <input type="email" name="email"
-          class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-          placeholder="Votre email" required />
-        <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>S'inscrire</button>
-      </form>
+        Inscrivez-vous à notre newsletter pour recevoir les dernières
+        nouvelles de Crêpe-Riz.
+      </p>
     </div>
+    <form action="./api/newsletter.php" method="post" class='flex flex-row gap-2 w-full max-w-lg'>
+      <input type="email" name="email"
+        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+        placeholder="Votre email" required />
+      <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>S'inscrire</button>
+    </form>
+  </div>
 
 
 
 
-    <div style=" width: 100%; height: 100%; padding: 16px 32px 16px 32px; background: #EEE7DF;
+  <div style=" width: 100%; height: 100%; padding: 16px 32px 16px 32px; background: #EEE7DF;
               justify-content: center; display: flex; flex-direction: column; gap: 12px">
     <div style="justify-content: center; align-items: center; gap: 32px; display: flex">
       <a href="https://twitter.com/toutencrepe?lang=fr"> <img style="width: 40px; height: 40px; border-radius: 6px"
