@@ -86,15 +86,15 @@
             line-height: 32px;
           ">
         <a href="./index.php">Accueil</a>
-        <div style="padding: 8px 16px; background: #ffb74d; border-radius: 12px">
-          <a href="#">Contact</a>
-        </div>
+        <a href="#">Contact</a>
         <a href="./menu.php">Carte</a>
         <a href="./phototeque.php">Photothèque</a>
+        <div style="padding: 8px 16px; background: #ffb74d; border-radius: 12px">
         <a href="./fournisseur.php">Fournisseurs</a>
+        </div>
       </div>
     </div>
-    <div style="padding-top: 10%; flex-direction: column; justify-content: flex-start; align-items: center; display: flex">
+    <div style="padding-top: 5%; padding-bottom: 5%; flex-direction: column; justify-content: flex-start; align-items: center; display: flex">
         <div><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">Fournisseur de Produits de Base :<br/>
     </span>
     <span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">Nom de l'entreprise : La Moulange Rétaise
