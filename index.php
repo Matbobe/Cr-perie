@@ -237,7 +237,7 @@
                 gap: 8px;
                 display: flex;
               ">
-            <a href="./menuJour.html" style="
+            <a href="./menuJour.php" style="
                   color: #ffb74d;
                   font-size: 14px;
                   font-weight: 500;
@@ -248,8 +248,7 @@
           </button>
         </div>
       </div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/vQEgZOl4LHk?
-          si=XLsa09joZYk9Nrjd&autoplay=1&mute=1" title="YouTube video player" frameborder="0"
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ydxhJGH6MNk?si=A6cBbkD_fTO5DvkQ&autoplay=1&mute=1" title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
     </div>
