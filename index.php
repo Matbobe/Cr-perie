@@ -304,18 +304,20 @@
               color: #4e342e;
               font-size: 36px;
               font-weight: 800;
-              line-height: 40px;">Actualités</h2>
+              line-height: 40px;
+              margin-bottom: 20px
+              ;">Actualités</h2>
       <div class="actualites" style="display: flex; flex-direction: column; gap: 20px;">
         <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-          <h3>Nouveau Menu de Saison</h3>
+          <h3 style="font-weight: bold;">Nouveau Menu de Saison</h3>
           <p>Découvrez notre nouveau menu printanier, avec des ingrédients frais et locaux de l'Île de Ré.</p>
         </article>
         <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-          <h3>Événement Crêpes et Musique</h3>
+          <h3 style="font-weight: bold;">Événement Crêpes et Musique</h3>
           <p>Rejoignez-nous ce samedi pour une soirée crêpes avec musique live, dès 19h.</p>
         </article>
         <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-          <h3>Ateliers de Crêpes pour Enfants</h3>
+          <h3 style="font-weight: bold;">Ateliers de Crêpes pour Enfants</h3>
           <p>Inscrivez vos enfants à nos ateliers culinaires pour apprendre l'art de la crêpe!</p>
         </article>
       </div>
