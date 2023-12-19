@@ -99,9 +99,9 @@
           <a href="#">Accueil</a>
         </div>
         <a href="./contact.php">Contact</a>
-        <a href="./menu.html">Carte</a>
-        <a href="./phototeque.html">Photothèque</a>
-        <a href="#">Fournisseurs</a>
+        <a href="./menu.php">Carte</a>
+        <a href="./phototeque.php">Photothèque</a>
+        <a href="./fournisseur.php">Fournisseurs</a>
       </div>
     </div>
     <div style="
@@ -250,6 +250,43 @@
             ">
         Récompenses
       </h2>
+      <div class='flex flex-row gap-12'>
+        <div class="flex flex-col gap-4" style="width: 50%;">
+          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+            <h2 class='font-bold'>
+              2021
+            </h2>
+            <p>
+              Première place du concours de la meilleure crêpe de l'Île de Ré
+            </p>
+          </div>
+          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+            <h2 class='font-bold'>
+              2020
+            </h2>
+            <p>
+              Première étoile au Guide Michelin
+            </p>
+          </div>
+          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+            <h2 class='font-bold'>
+              2019
+            </h2>
+            <p>
+              2 toques au Gault et Millau
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4" style="width: 50%;">
+          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+            <h2 class='font-bold'>
+              2018
+            </h2>
+            <p>
+              Meilleure crêperie de l'Île de Ré
+            </p>
+          </div>
+        </div>
     </div>
     <!-- Presentation du personnels -->
     <!-- Livre d'or -->
@@ -312,18 +349,20 @@
               color: #4e342e;
               font-size: 36px;
               font-weight: 800;
-              line-height: 40px;">Actualités</h2>
+              line-height: 40px;
+              margin-bottom: 20px
+              ;">Actualités</h2>
       <div class="actualites" style="display: flex; flex-direction: column; gap: 20px;">
         <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-          <h3>Nouveau Menu de Saison</h3>
+          <h3 style="font-weight: bold;">Nouveau Menu de Saison</h3>
           <p>Découvrez notre nouveau menu printanier, avec des ingrédients frais et locaux de l'Île de Ré.</p>
         </article>
         <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-          <h3>Événement Crêpes et Musique</h3>
+          <h3 style="font-weight: bold;">Événement Crêpes et Musique</h3>
           <p>Rejoignez-nous ce samedi pour une soirée crêpes avec musique live, dès 19h.</p>
         </article>
         <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-          <h3>Ateliers de Crêpes pour Enfants</h3>
+          <h3 style="font-weight: bold;">Ateliers de Crêpes pour Enfants</h3>
           <p>Inscrivez vos enfants à nos ateliers culinaires pour apprendre l'art de la crêpe!</p>
         </article>
       </div>
