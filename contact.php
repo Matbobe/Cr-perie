@@ -190,6 +190,23 @@
       </form>
     </div>
 
+    <div class="flex flex-col gap-4 px-6 py-8 mb-8 bg-[#f8f1e9]">
+      <h1 style="
+            margin: 0 auto;
+            text-align: center;
+            color: #4e342e;
+            font-size: 36px;
+            font-weight: 800;
+            line-height: 40px;
+          ">
+        Nous trouver
+      </h1>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d602.097319495406!2d-1.3682132660067345!3d46.20539016990113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1702970801611!5m2!1sfr!2sfr"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
   </div>
 </body>
 

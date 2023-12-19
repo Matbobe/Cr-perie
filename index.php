@@ -240,6 +240,7 @@
       </div>
     </div>
 
+    <!-- Presentation du personnels -->
 
     <!-- Livre d'or -->
     <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
