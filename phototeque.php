@@ -92,7 +92,7 @@
         <div style="padding: 8px 16px; background: #ffb74d; border-radius: 12px">
           <a href="#">Photothèque</a>
         </div>
-        <a href="#">Fournisseurs</a>
+        <a href="./fournisseur.php">Fournisseurs</a>
       </div>
     </div>
   </div>

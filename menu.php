@@ -91,7 +91,7 @@
             <a href="#">Carte</a>
           </div>
           <a href="./phototeque.php">Photothèque</a>
-          <a href="#">Fournisseurs</a>
+          <a href="./fournisseur.php">Fournisseurs</a>
         </div>
       </div>
       <div style="
