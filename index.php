@@ -297,8 +297,18 @@
         </p>
       </div>
     </div>
-
-
+    <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
+      <h2 style="
+              margin: 0 auto;
+              text-align: center;
+              color: #4e342e;
+              font-size: 36px;
+              font-weight: 800;
+              line-height: 40px;
+            ">
+        Récompenses
+      </h2>
+    </div>
     <!-- Livre d'or -->
     <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
       <h2 style="
@@ -313,7 +323,7 @@
       </h2>
       <div class='flex flex-row gap-12'>
         <div class="flex flex-col gap-4">
-          <?php foreach ($guestbook as $entry): ?>
+          <?php foreach ($guestbook as $entry) : ?>
             <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
               <h2 class='font-bold'>
                 <?= $entry['name'] ?>
@@ -338,30 +348,21 @@
           <div class='flex flex-row gap-2'>
             <div class='flex flex-col'>
               <!-- <label for="name" class='block mb-2 text-sm font-medium text-gray-900'>Nom</label> -->
-              <input type="text" name="name"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                placeholder="Nom">
+              <input type="text" name="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nom">
             </div>
             <div class='flex flex-col'>
               <!-- <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email</label> -->
-              <input type="email" name="email"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-                placeholder="Email">
+              <input type="email" name="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Email">
             </div>
           </div>
           <div>
             <!-- <label for="message" class='block mb-2 text-sm font-medium text-gray-900'>Message</label> -->
-            <input type="text" name="message"
-              class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
-              placeholder="Message">
+            <input type="text" name="message" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Message">
           </div>
           <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>Envoyer</button>
         </form>
       </div>
     </div>
-
-
-
     <!-- Newsletter -->
     <div class="w-full bg-[#eee7df] py-12 px-10 flex flex-col gap-12 items-center">
       <div style="width: 100%; align-items: center; display: inline-flex">
