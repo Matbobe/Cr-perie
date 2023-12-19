@@ -241,6 +241,65 @@
     </div>
 
     <!-- Presentation du personnels -->
+    <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
+      <h2 style="
+              margin: 0 auto;
+              text-align: center;
+              color: #4e342e;
+              font-size: 36px;
+              font-weight: 800;
+              line-height: 40px;
+            ">
+        Présentation du personnel
+      </h2>
+      <div style="width: 100%; height: 100%; display: flex; position: relative;">
+    <div style="width: 400px; height: 350px; background: #FFF1D5; border-radius: 40px; position: relative;">
+        <img style="width: 180px; height: 171px; border-radius: 40px; position: absolute; top: 9px; left: 10px;" src="./images/pierre.png" />
+        <div style="position: absolute; top: 40px; right: 24px; text-align: right;">
+            <span style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Responsable en Salle <br/></span>
+            <span style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Pierre Martin</span>
+        </div>
+        <div style="width: 368px; position: absolute; bottom: 0; right: 24px; color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word; padding-left: 24px;">
+            Pierre incarne l'hospitalité bretonne avec son sourire chaleureux et son service attentionné. En tant que responsable de la salle, il veille à ce que chaque client se sente accueilli et pris en charge. Sa connaissance approfondie du menu lui permet de recommander des combinaisons de crêpes parfaites.
+        </div>
+    </div>
+
+    <div style="width: 400px; height: 350px; background: #FFF1D5; border-radius: 40px; position: relative;">
+        <img style="width: 180px; height: 171px; border-radius: 40px; position: absolute; top: 9px; left: 10px;" src="./images/elodie.png" />
+        <div style="position: absolute; top: 40px; right: 24px; text-align: right;">
+            <span style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Cuisinière <br/></span>
+            <span style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Elodie Gagnon</span>
+        </div>
+        <div style="width: 368px; position: absolute; bottom: 0; right: 24px; color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word; padding-left: 24px;">
+        Derrière les fourneaux, Élodie Gagnon apporte son expertise culinaire et son amour pour les ingrédients de qualité. Elle veille à ce que chaque crêpe soit préparée avec précision et passion, garantissant ainsi la saveur authentique qui fait la renommée de notre établissement.
+        </div>
+    </div>
+
+    <div style="width: 400px; height: 350px; background: #FFF1D5; border-radius: 40px; position: relative;">
+        <img style="width: 180px; height: 171px; border-radius: 40px; position: absolute; top: 9px; left: 10px;" src="./images/amandine.png" />
+        <div style="position: absolute; top: 40px; right: 24px; text-align: right;">
+            <span style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Serveuse <br/></span>
+            <span style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Amandine Dubois</span>
+        </div>
+        <div style="width: 368px; position: absolute; bottom: 0; right: 24px; color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word; padding-left: 24px;">
+        Amandine, notre serveur, ajoute une touche de grâce à chaque repas. Avec son charme et son professionnalisme, elle crée une expérience de service exceptionnelle. Passionnée, elle offre des recommandations personnalisées et s'assure que chaque visite est aussi délicieuse que mémorable.</div>
+    </div>
+
+    <div style="width: 400px; height: 350px; background: #FFF1D5; border-radius: 40px; position: relative;">
+        <img style="width: 180px; height: 171px; border-radius: 40px; position: absolute; top: 9px; left: 10px;" src="./images/Camille.png" />
+        <div style="position: absolute; top: 40px; right: 24px; text-align: right;">
+            <span style="color: #A23E0A; font-size: 17px; font-family: Inter; font-weight: 600; word-wrap: break-word; margin-bottom: 8px;">Chef Crêpier  <br/></span>
+            <span style="color: #A23E0A; font-size: 16px; font-family: Inter; font-weight: 600; word-wrap: break-word">Camille Le Roux</span>
+        </div>
+        <div style="width: 368px; position: absolute; bottom: 0; right: 24px; color: #A23E0A; font-size: 15px; font-family: Inter; font-weight: 600; word-wrap: break-word; padding-left: 24px;">
+        Renommé pour sa maîtrise exceptionnelle de l'art de la crêpe, Camille Le Roux est notre chef crêpier émérite. Originaire de Bretagne, elle a hérité de sa grand-mère des secrets traditionnels qui font de nos crêpes de véritables délices.
+        </div>
+    </div>
+</div>
+
+
+    
+
 
     <!-- Livre d'or -->
     <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
