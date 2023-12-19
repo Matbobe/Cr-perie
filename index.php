@@ -443,7 +443,7 @@
             ">
         Le livre d'or
       </h2>
-      <div class='flex flex-row gap-12'>
+      <div class='flex flex-row gap-12 justify-center'>
         <div class="flex flex-col gap-4">
           <?php foreach ($guestbook as $entry): ?>
             <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
