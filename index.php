@@ -250,6 +250,43 @@
             ">
         Récompenses
       </h2>
+      <div class='flex flex-row gap-12'>
+        <div class="flex flex-col gap-4" style="width: 50%;">
+          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+            <h2 class='font-bold'>
+              2021
+            </h2>
+            <p>
+              Première place du concours de la meilleure crêpe de l'Île de Ré
+            </p>
+          </div>
+          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+            <h2 class='font-bold'>
+              2020
+            </h2>
+            <p>
+              Première étoile au Guide Michelin
+            </p>
+          </div>
+          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+            <h2 class='font-bold'>
+              2019
+            </h2>
+            <p>
+              2 toques au Gault et Millau
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col gap-4" style="width: 50%;">
+          <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
+            <h2 class='font-bold'>
+              2018
+            </h2>
+            <p>
+              Meilleure crêperie de l'Île de Ré
+            </p>
+          </div>
+        </div>
     </div>
     <!-- Presentation du personnels -->
     <!-- Livre d'or -->
