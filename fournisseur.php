@@ -1,25 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/index.css" />
-  <title>Crêpe-Riz</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-
-<body>
-  <div style="
-        width: 100%;
-        height: 100%;
-        background: #f8f1e9;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: center;
-        display: inline-flex;
-      ">
-    <div style="
+<div style="width: 100%; height: 100%; background: #F8F1E9; flex-direction: column; justify-content: flex-start; align-items: center; display: inline-flex">
+<div style="
           align-self: stretch;
           height: 90px;
           padding-left: 32px;
@@ -85,64 +65,14 @@
             font-weight: 600;
             line-height: 32px;
           ">
-        <a href="./index.php">Accueil</a>
         <div style="padding: 8px 16px; background: #ffb74d; border-radius: 12px">
-          <a href="#">Contact</a>
+          <a href="#">Accueil</a>
         </div>
+        <a href="./contact.php">Contact</a>
         <a href="./menu.php">Carte</a>
         <a href="./phototeque.php">Photothèque</a>
         <a href="./fournisseur.php">Fournisseurs</a>
       </div>
     </div>
-
-
-    <div class="flex flex-col gap-2 px-6 py-8 bg-[#f8f1e9] max-w-lg w-full">
-      <form action="" method="post" class='flex flex-col gap-4'>
-
-        <h1 style="
-              margin: 0 auto;
-              text-align: center;
-              color: #4e342e;
-              font-size: 36px;
-              font-weight: 800;
-              line-height: 40px;
-            ">
-          Nous contacter
-        </h1>
-        <div>
-          <label for="email" class='block mb-2 text-sm font-medium text-gray-900'>Adresse mail</label>
-          <input type="email" name="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Votre adresse mail" />
-        </div>
-
-        <div>
-          <label for="name" class='block mb-2 text-sm font-medium text-gray-900'>Objet du message</label>
-          <input type="text" name="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Objet du message" />
-        </div>
-
-        <div>
-          <label for="message" class='block mb-2 text-sm font-medium text-gray-900'>Message</label>
-          <textarea name="message" class="bg-gray-50 border border-gray-300 max-h-[150px] text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Votre message"></textarea>
-        </div>
-
-        <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>Envoyer</button>
-      </form>
-    </div>
-
-    <div class="flex flex-col gap-4 px-6 py-8 mb-8 bg-[#f8f1e9]">
-      <h1 style="
-            margin: 0 auto;
-            text-align: center;
-            color: #4e342e;
-            font-size: 36px;
-            font-weight: 800;
-            line-height: 40px;
-          ">
-        Nous trouver
-      </h1>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d602.097319495406!2d-1.3682132660067345!3d46.20539016990113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1702970801611!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-
-  </div>
-</body>
-
-</html>
+    <div style="width: 1440px; height: 1607px; position: relative; background: #EEE7DF"></div>
+</div>

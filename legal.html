@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/menu.css">
-    <title>Le Menu</title>
+    <title>Crêpe-Riz</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-[#F8F1E9]">
     <div style="width: 100%; height: 100%; background: #F8F1E9; flex-direction: column; justify-content: flex-start; align-items: center; display: inline-flex">
     <div
       style="
@@ -217,53 +218,67 @@
             line-height: 32px;
           "
         >
-          <a href="index.php">Accueil</a>
-          <a href="contact.php">Contact</a>
-          <a href="menu.html">Carte</a>
-          <a href="phototeque.html">Photothèque</a>
+          <a href="./index.php">Accueil</a>
+          <a href="./contact.php">Contact</a>
+          <div
+            style="padding: 8px 16px; background: #ffb74d; border-radius: 12px"
+          >
+          <a href="#">Carte</a>
+            </div>
+          <a href="./phototeque.html">Photothèque</a>
           <a href="#">Fournisseurs</a>
         </div>
       </div>
-      <div
-        style="
-          align-self: stretch;
-          padding-top: 64px;
-          padding-bottom: 64px;
-          padding-left: 80px;
-          padding-right: 64px;
-          background: #EEE7DF;
-          justify-content: space-between;
-          align-items: center;
-          display: inline-flex;
-        "
-      >
-        <div
-          style="
-            flex: 1 1 0;
-            padding-right: 80px;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 16px;
-            display: inline-flex;
-          "
-        >
-          <div
-            style="
-              align-self: stretch;
-              color: #4e342e;
-              font-size: 36px;
-              font-weight: 800;
-              line-height: 40px;
-              word-wrap: break-word;
-            "
-          >
-        </div>
-        <div class="menu">
-            <img style="border-radius: 20px;" src="./images/MenuJ.png"/>
-        </div>
-        <div style="padding: 8px 16px; background: #ffb74d; border-radius: 12px">
-        <a href="./images/MenuJ.pdf" download="Menu_Du_Jour_Crêperie.pdf">Télécharger le PDF</a>
+      
+        <div class="flex flex-col gap-4 max-w-3xl w-full mb-8">
+
+          <h1 style="
+            margin: 0 auto;
+            text-align: center;
+            color: #4e342e;
+            font-size: 36px;
+            font-weight: 800;
+            line-height: 40px;
+          ">
+            Mentions légales
+      </h1>
+
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Identification</h3>
+            <p>Ce site est édité par Crêpe-Riz, situé à l’Ile de Ré, France. Contact : contact@creperiz.fr</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Hébergement</h3>
+            <p>Le site est hébergé par OVH, 2 rue Kellermann, 59100 Roubaix, France.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Propriété intellectuelle</h3>
+            <p>Tous les contenus de ce site, y compris les textes, images, graphiques, logo, icônes, sons, logiciels, sont la propriété de Crêpe-Riz ou de ses partenaires et sont protégés par les lois internationales de la propriété intellectuelle.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Données personnelles</h3>
+            <p>Crêpe-Riz s'engage à respecter la confidentialité des données personnelles collectées et à les traiter dans le respect des lois et réglementations applicables.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Cookies</h3>
+            <p>Le site peut utiliser des cookies pour améliorer l'expérience utilisateur. Ces cookies peuvent être désactivés via les paramètres du navigateur.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Responsabilité</h3>
+            <p>Crêpe-Riz décline toute responsabilité en cas d'erreur ou d'omission dans les contenus publiés sur ce site. Les informations sont données à titre indicatif.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Modification des mentions légales</h3>
+            <p>Crêpe-Riz se réserve le droit de modifier ces mentions à tout moment. L’utilisateur est invité à les consulter régulièrement.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Loi applicable</h3>
+            <p>Ces mentions légales sont soumises à la loi française et tout litige relatif à leur interprétation et/ou leur exécution relève des tribunaux français.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Crédits </h3>
+            <p>Les photographies, vidéos et contenus multimédias sont, sauf mention contraire, la propriété exclusive de Crêpe-Riz.</p>
+          </div>
         </div>
     </div>
 </body>
