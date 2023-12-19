@@ -1,5 +1,25 @@
-<div style="width: 100%; height: 100%; background: #F8F1E9; flex-direction: column; justify-content: flex-start; align-items: center; display: inline-flex">
-<div style="
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css" />
+  <title>Crêpe-Riz</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div style="
+        width: 100%;
+        height: 100%;
+        background: #f8f1e9;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        display: inline-flex;
+      ">
+    <div style="
           align-self: stretch;
           height: 90px;
           padding-left: 32px;
@@ -65,16 +85,31 @@
             font-weight: 600;
             line-height: 32px;
           ">
-        <div style="padding: 8px 16px; background: #ffb74d; border-radius: 12px">
-          <a href="#">Accueil</a>
-        </div>
-        <a href="./contact.php">Contact</a>
+        <a href="./index.php">Accueil</a>
+        <a href="#">Contact</a>
         <a href="./menu.php">Carte</a>
         <a href="./phototeque.php">Photothèque</a>
+        <div style="padding: 8px 16px; background: #ffb74d; border-radius: 12px">
         <a href="./fournisseur.php">Fournisseurs</a>
+        </div>
       </div>
     </div>
-    <div style="width: 1440px; height: 1607px; position: relative; background: #EEE7DF"></div>
+    <div style="padding-top: 5%; padding-bottom: 5%; flex-direction: column; justify-content: flex-start; align-items: center; display: flex">
+        <div><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">Fournisseur de Produits de Base :<br/>
+    </span>
+    <span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">Nom de l'entreprise : La Moulange Rétaise
+    <br/>Produits fournis : Farine de blé noir, farine de blé, sucre, sel
+    <br/>Contact : Jean Dupont, Directeur des ventes
+    <br/>Coordonnées : 123 Rue de la Crêpe, Île de Ré
+    <br/>Téléphone : 01 23 45 67 89
+    <br/>E-mail : info@moulange-retaise.com
+    <br/>Site Web : </span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">www.moulange-retaise.com
+    <br/></span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">
+    <br/><br/><br/>
+    <br/>Fournisseur de Produits de la Mer :<br/>
+</span>
+<span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 700; line-height: 40px; word-wrap: break-word">Nom de l'entreprise : Marée Île de Ré<br/></span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">Produits fournis : Fruits de mer frais<br/>Contact : Marie Leclerc, Responsable des achats<br/>Coordonnées : 456 Quai des Pêcheurs, Île de Ré<br/>Téléphone : 01 98 76 54 32<br/>E-mail : commandes@maree-ile-de-re.com<br/>Site Web : </span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">www.maree-ile-de-re.com<br/></span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word"><br/><br/><br/><br/>Fournisseur de Boissons Locales :<br/></span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">Nom de l'entreprise : Saveurs Rétaises<br/>Produits fournis : Cidre artisanal, jus de pomme local<br/>Contact : Isabelle Martin, Responsable des ventes<br/>Coordonnées : 789 Avenue du Verger, Île de Ré<br/>Téléphone : 02 34 56 78 90<br/>E-mail : contact@saveurs-retaises.fr<br/>Site Web : </span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">www.saveurs-retaises.fr</span></div>
+    </div>
 
     <div style=" width: 100%; height: 100%; padding: 16px 32px 16px 32px; background: #EEE7DF;
               justify-content: center; display: flex; flex-direction: column; gap: 12px">
