@@ -110,4 +110,17 @@
 </span>
 <span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 700; line-height: 40px; word-wrap: break-word">Nom de l'entreprise : Marée Île de Ré<br/></span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">Produits fournis : Fruits de mer frais<br/>Contact : Marie Leclerc, Responsable des achats<br/>Coordonnées : 456 Quai des Pêcheurs, Île de Ré<br/>Téléphone : 01 98 76 54 32<br/>E-mail : commandes@maree-ile-de-re.com<br/>Site Web : </span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">www.maree-ile-de-re.com<br/></span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word"><br/><br/><br/><br/>Fournisseur de Boissons Locales :<br/></span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">Nom de l'entreprise : Saveurs Rétaises<br/>Produits fournis : Cidre artisanal, jus de pomme local<br/>Contact : Isabelle Martin, Responsable des ventes<br/>Coordonnées : 789 Avenue du Verger, Île de Ré<br/>Téléphone : 02 34 56 78 90<br/>E-mail : contact@saveurs-retaises.fr<br/>Site Web : </span><span style="color: #4E342E; font-size: 36px; font-family: Inter; font-weight: 800; line-height: 40px; word-wrap: break-word">www.saveurs-retaises.fr</span></div>
     </div>
+
+    <div style=" width: 100%; height: 100%; padding: 16px 32px 16px 32px; background: #EEE7DF;
+              justify-content: center; display: flex; flex-direction: column; gap: 12px">
+    <div style="justify-content: center; align-items: center; gap: 32px; display: flex">
+      <a href="https://twitter.com/toutencrepe?lang=fr"> <img style="width: 40px; height: 40px; border-radius: 6px"
+          src="images/image4.png" /> </a>
+      <a href="https://www.facebook.com/p/Pot-Detain-100063470441363/"><img
+          style="width: 40px; height: 40px; border-radius: 6px" src="images/image5.png" /></a>
+      <a href="https://www.instagram.com/creperie.saintecroix/?hl=fr"><img
+          style="width: 40px; height: 40px; border-radius: 6px" src="images/image6.png" /></a>
+    </div>
+    <a href="legal.html" class="mx-auto">Mentions légales</a>
+  </div>
 </div>

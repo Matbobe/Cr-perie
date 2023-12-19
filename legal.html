@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles/index.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/menu.css">
     <title>Crêpe-Riz</title>
-  </head>
-  <body>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#F8F1E9]">
+    <div style="width: 100%; height: 100%; background: #F8F1E9; flex-direction: column; justify-content: flex-start; align-items: center; display: inline-flex">
     <div
       style="
         width: 100%;
@@ -216,192 +218,77 @@
             line-height: 32px;
           "
         >
-          <div
-            style="padding: 8px 16px; background: #ffb74d; border-radius: 12px"
-          >
-            <a href="#">Accueil</a>
-          </div>
-          <a href="#">Contact</a>
-          <a href="menu.html">Carte</a>
-          <a href="#">Photothèque</a>
+          <a href="./index.php">Accueil</a>
+          <a href="./contact.php">Contact</a>
+          <a href="#">Carte</a>
+          <a href="./phototeque.html">Photothèque</a>
           <a href="#">Fournisseurs</a>
         </div>
       </div>
-      <div
-        style="
-          align-self: stretch;
-          padding-top: 64px;
-          padding-bottom: 64px;
-          padding-left: 80px;
-          padding-right: 64px;
-          background: #f8f1e9;
-          justify-content: space-between;
-          align-items: center;
-          display: inline-flex;
-        "
-      >
-        <div
-          style="
-            flex: 1 1 0;
-            padding-right: 80px;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 16px;
-            display: inline-flex;
-          "
-        >
-          <div
-            style="
-              align-self: stretch;
-              color: #4e342e;
-              font-size: 36px;
+      
+        <div class="flex flex-col gap-4 max-w-3xl w-full mb-8">
 
-              font-weight: 800;
-              line-height: 40px;
-              word-wrap: break-word;
-            "
-          >
-            Bienvenue à Crêpe-Riz, votre destination gourmande à l'Ile de Ré!
-          </div>
-          <div
-            style="
-              justify-content: flex-start;
-              align-items: center;
-              gap: 16px;
-              display: inline-flex;
-            "
-          >
-            <button
-              style="
-                width: 92px;
-                padding-left: 16px;
-                padding-right: 16px;
-                padding-top: 8px;
-                padding-bottom: 8px;
-                background: #ffb74d;
-                border: transparent;
-                border-radius: 8px;
-                justify-content: center;
-                align-items: center;
-                gap: 8px;
-                cursor: pointer;
-                display: flex;
-              "
-            >
-              <a
-                style="
-                  color: #4e342e;
-                  font-size: 14px;
+          <h1 style="
+            margin: 0 auto;
+            text-align: center;
+            color: #4e342e;
+            font-size: 36px;
+            font-weight: 800;
+            line-height: 40px;
+          ">
+            Mentions légales
+      </h1>
 
-                  font-weight: 500;
-                  line-height: 20px;
-                  word-wrap: break-word;
-                "
-              >
-                Réserver
-              </a>
-            </button>
-            <button
-              style="
-                width: 123px;
-                padding-left: 16px;
-                padding-right: 16px;
-                padding-top: 8px;
-                padding-bottom: 8px;
-                border-radius: 8px;
-                border: 1px #ffb74d solid;
-                background: transparent;
-                cursor: pointer;
-                justify-content: center;
-                align-items: center;
-                gap: 8px;
-                display: flex;
-              "
-            >
-              <a href="./menuJour.html"
-                style="
-                  color: #ffb74d;
-                  font-size: 14px;
-                  font-weight: 500;
-                  line-height: 20px;
-                "
-              >
-                Menu du jour
-          </a>
-            </button>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Identification</h3>
+            <p>Ce site est édité par Crêpe-Riz, situé à l’Ile de Ré, France. Contact : contact@creperiz.fr</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Hébergement</h3>
+            <p>Le site est hébergé par OVH, 2 rue Kellermann, 59100 Roubaix, France.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Propriété intellectuelle</h3>
+            <p>Tous les contenus de ce site, y compris les textes, images, graphiques, logo, icônes, sons, logiciels, sont la propriété de Crêpe-Riz ou de ses partenaires et sont protégés par les lois internationales de la propriété intellectuelle.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Données personnelles</h3>
+            <p>Crêpe-Riz s'engage à respecter la confidentialité des données personnelles collectées et à les traiter dans le respect des lois et réglementations applicables.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Cookies</h3>
+            <p>Le site peut utiliser des cookies pour améliorer l'expérience utilisateur. Ces cookies peuvent être désactivés via les paramètres du navigateur.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Responsabilité</h3>
+            <p>Crêpe-Riz décline toute responsabilité en cas d'erreur ou d'omission dans les contenus publiés sur ce site. Les informations sont données à titre indicatif.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Modification des mentions légales</h3>
+            <p>Crêpe-Riz se réserve le droit de modifier ces mentions à tout moment. L’utilisateur est invité à les consulter régulièrement.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Loi applicable</h3>
+            <p>Ces mentions légales sont soumises à la loi française et tout litige relatif à leur interprétation et/ou leur exécution relève des tribunaux français.</p>
+          </div>
+          <div class="border-1 rounded-lg px-4 py-2 bg-[#eee7df]">
+            <h3 class="text-[#4e342e] text-6 font-bold">Crédits </h3>
+            <p>Les photographies, vidéos et contenus multimédias sont, sauf mention contraire, la propriété exclusive de Crêpe-Riz.</p>
           </div>
         </div>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/vQEgZOl4LHk?
-          si=XLsa09joZYk9Nrjd&autoplay=1&mute=1"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </div>
-      <div
-        style="
-          align-self: stretch;
-          height: 338px;
-          padding: 64px;
-          background: #eee7df;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 30px;
-          display: flex;
-        "
-      >
-        <div style="width: 100%; align-items: center; display: inline-flex">
-          <h2
-            style="
-              margin: 0 auto;
-              text-align: center;
-              color: #4e342e;
-              font-size: 36px;
-              font-weight: 800;
-              line-height: 40px;
-            "
-          >
-            Nos valeurs
-          </h2>
-        </div>
-        <div
-          style="
-            align-self: stretch;
-            justify-content: space-between;
-            align-items: center;
-            display: inline-flex;
-          "
-        >
-          <p
-            style="
-              flex: 1 1 0;
-              text-align: center;
-              color: #4e342e;
-              font-size: 30px;
-              font-weight: 600;
-              line-height: 36px;
-            "
-          >
-            Bienvenue chez Crêpe-Riz, où chaque crêpe raconte une histoire de
-            tradition, de passion et de qualité. Nous croyons en l'art
-            authentique de la crêpe, et chaque bouchée que vous savourez chez
-            nous reflète nos valeurs profondes.
-          </p>
-        </div>
-        <div style="width: 100%; height: 100%; padding-left: 32px; padding-right: 32px; background: #EEE7DF; justify-content: space-between; align-items: center; display: inline-flex">
-          <div style="justify-content: center; align-items: center; gap: 32px; display: flex">
-          <a href="https://twitter.com/toutencrepe?lang=fr"> <img style="width: 40px; height: 40px; border-radius: 6px" src="images/image4.png" /> </a>
-          <a href="https://www.facebook.com/p/Pot-Detain-100063470441363/"><img style="width: 40px; height: 40px; border-radius: 6px" src="images/image5.png" /></a>
-          <a href="https://www.instagram.com/creperie.saintecroix/?hl=fr"><img style="width: 40px; height: 40px; border-radius: 6px" src="images/image6.png" /></a>
-          </div>
-          </div>
-      </div>
     </div>
-  </body>
+
+    <div style=" width: 100%; height: 100%; padding: 16px 32px 16px 32px; background: #EEE7DF;
+              justify-content: center; display: flex; flex-direction: column; gap: 12px">
+    <div style="justify-content: center; align-items: center; gap: 32px; display: flex">
+      <a href="https://twitter.com/toutencrepe?lang=fr"> <img style="width: 40px; height: 40px; border-radius: 6px"
+          src="images/image4.png" /> </a>
+      <a href="https://www.facebook.com/p/Pot-Detain-100063470441363/"><img
+          style="width: 40px; height: 40px; border-radius: 6px" src="images/image5.png" /></a>
+      <a href="https://www.instagram.com/creperie.saintecroix/?hl=fr"><img
+          style="width: 40px; height: 40px; border-radius: 6px" src="images/image6.png" /></a>
+    </div>
+    <a href="legal.html" class="mx-auto">Mentions légales</a>
+  </div>
+</body>
 </html>
