@@ -1,25 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fn">
 
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="styles/index.css" />
-  <title>Crêpe-Riz</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="styles/photo.css">
+  <title>Photothèque</title>
 </head>
 
 <body>
-  <?php
-  $db = new PDO('mysql:host=localhost;dbname=crepe-riz;charset=utf8', 'root', '');
-  $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-  $query = $db->prepare('SELECT * FROM `guestbook` ORDER BY `created_at` DESC LIMIT 3 ');
-  $query->execute();
-  $guestbook = $query->fetchAll(PDO::FETCH_ASSOC);
-
-
-  ?>
   <div style="
         width: 100%;
         height: 100%;
@@ -95,289 +85,42 @@
             font-weight: 600;
             line-height: 32px;
           ">
-        <div style="padding: 8px 16px; background: #ffb74d; border-radius: 12px">
-          <a href="#">Accueil</a>
-        </div>
+        <a href="./index.php">Accueil</a>
+
         <a href="./contact.php">Contact</a>
         <a href="./menu.php">Carte</a>
-        <a href="./phototeque.php">Photothèque</a>
+        <div style="padding: 8px 16px; background: #ffb74d; border-radius: 12px">
+          <a href="#">Photothèque</a>
+        </div>
         <a href="#">Fournisseurs</a>
       </div>
     </div>
-    <div style="
-          align-self: stretch;
-          padding-top: 64px;
-          padding-bottom: 64px;
-          padding-left: 80px;
-          padding-right: 64px;
-          background: #f8f1e9;
-          justify-content: space-between;
-          align-items: center;
-          display: inline-flex;
-        ">
-      <div style="
-            flex: 1 1 0;
-            padding-right: 80px;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
-            gap: 16px;
-            display: inline-flex;
-          ">
-        <div style="
-              align-self: stretch;
-              color: #4e342e;
-              font-size: 36px;
+  </div>
+  <div id="scroll1">
+    <h2>Photo de La Crêperie</h2>
+    <div class="images-resto">
 
-              font-weight: 800;
-              line-height: 40px;
-              word-wrap: break-word;
-            ">
-          Bienvenue à Crêpe-Riz, votre destination gourmande à l'Ile de Ré!
-        </div>
-        <div style="
-              justify-content: flex-start;
-              align-items: center;
-              gap: 16px;
-              display: inline-flex;
-            ">
-          <button style="
-                width: 92px;
-                padding-left: 16px;
-                padding-right: 16px;
-                padding-top: 8px;
-                padding-bottom: 8px;
-                background: #ffb74d;
-                border: transparent;
-                border-radius: 8px;
-                justify-content: center;
-                align-items: center;
-                gap: 8px;
-                cursor: pointer;
-                display: flex;
-              ">
-            <a style="
-                  color: #4e342e;
-                  font-size: 14px;
-                  font-weight: 500;
-                  line-height: 20px;
-                  word-wrap: break-word;
-                ">
-              Réserver
-            </a>
-          </button>
-          <button style="
-                width: 123px;
-                padding-left: 16px;
-                padding-right: 16px;
-                padding-top: 8px;
-                padding-bottom: 8px;
-                border-radius: 8px;
-                border: 1px #ffb74d solid;
-                background: transparent;
-                cursor: pointer;
-                justify-content: center;
-                align-items: center;
-                gap: 8px;
-                display: flex;
-              ">
-            <a href="./menuJour.html" style="
-                  color: #ffb74d;
-                  font-size: 14px;
-                  font-weight: 500;
-                  line-height: 20px;
-                ">
-              Menu du jour
-            </a>
-          </button>
-        </div>
-      </div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/vQEgZOl4LHk?
-          si=XLsa09joZYk9Nrjd&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <img src="images/exterior-appearance.jpg" alt="" />
+      <img src="images/avant-le-feu-du-service.jpg" alt="" />
+      <img src="images/la-sarrasine (2).jpg" alt="" />
+      <img src="images/la-sarrasine.jpg" alt="" />
+      <img src="images/la-sarrasine (1).jpg" alt="" />
+      <img src="images/photo0jpg.jpg" alt="" />
+      <img src="images/photo0jpg (1).jpg" alt="" />
+      <img src="images/caption.jpg" alt="" />
     </div>
-    <div style="
-          align-self: stretch;
-          height: 338px;
-          padding: 64px;
-          background: #eee7df;
-          flex-direction: column;
-          justify-content: flex-start;
-          align-items: flex-start;
-          gap: 30px;
-          display: flex;
-        ">
-      <div style="width: 100%; align-items: center; display: inline-flex">
-        <h2 style="
-              margin: 0 auto;
-              text-align: center;
-              color: #4e342e;
-              font-size: 36px;
-              font-weight: 800;
-              line-height: 40px;
-            ">
-          Nos valeurs
-        </h2>
-      </div>
-      <div style="
-            align-self: stretch;
-            justify-content: space-between;
-            align-items: center;
-            display: inline-flex;
-          ">
-        <p style="
-              flex: 1 1 0;
-              text-align: center;
-              color: #4e342e;
-              font-size: 30px;
-              font-weight: 600;
-              line-height: 36px;
-            ">
-          Bienvenue chez Crêpe-Riz, où chaque crêpe raconte une histoire de
-          tradition, de passion et de qualité. Nous croyons en l'art
-          authentique de la crêpe, et chaque bouchée que vous savourez chez
-          nous reflète nos valeurs profondes.
-        </p>
-      </div>
-    </div>
-    <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
-      <h2 style="
-              margin: 0 auto;
-              text-align: center;
-              color: #4e342e;
-              font-size: 36px;
-              font-weight: 800;
-              line-height: 40px;
-            ">
-        Récompenses
-      </h2>
-    </div>
-    <!-- Presentation du personnels -->
-    <!-- Livre d'or -->
-    <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
-      <h2 style="
-              margin: 0 auto;
-              text-align: center;
-              color: #4e342e;
-              font-size: 36px;
-              font-weight: 800;
-              line-height: 40px;
-            ">
-        Le livre d'or
-      </h2>
-      <div class='flex flex-row gap-12'>
-        <div class="flex flex-col gap-4">
-          <?php foreach ($guestbook as $entry) : ?>
-            <div class="border-1 rounded-lg bg-[#eee7df] px-4 py-2">
-              <h2 class='font-bold'>
-                <?= $entry['name'] ?>
-              </h2>
-              <p>
-                <?= $entry['message'] ?>
-              </p>
-            </div>
-          <?php endforeach; ?>
-        </div>
-        <form action="./api/gestbook.php" method="post" class='flex flex-col gap-4'>
-
-          <h2 style="
-              margin: 0 auto;
-              text-align: center;
-              color: #4e342e;
-              font-size: 28px;
-              font-weight: 600;
-            ">
-            Donner votre avis
-          </h2>
-          <div class='flex flex-row gap-2'>
-            <div class='flex flex-col'>
-              <!-- <label for="name" class='block mb-2 text-sm font-medium text-gray-900'>Nom</label> -->
-              <input type="text" name="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Nom">
-            </div>
-            <div class='flex flex-col'>
-              <!-- <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Email</label> -->
-              <input type="email" name="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Email">
-            </div>
-          </div>
-          <div>
-            <!-- <label for="message" class='block mb-2 text-sm font-medium text-gray-900'>Message</label> -->
-            <input type="text" name="message" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Message">
-          </div>
-          <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>Envoyer</button>
-        </form>
-      </div>
-    </div>
-    <div class="actualites-container" style="background: #f8f1e9; padding: 50px;">
-      <h2 style=" margin: 0 auto;
-              text-align: center;
-              color: #4e342e;
-              font-size: 36px;
-              font-weight: 800;
-              line-height: 40px;
-              margin-bottom: 20px
-              ;">Actualités</h2>
-      <div class="actualites" style="display: flex; flex-direction: column; gap: 20px;">
-        <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-          <h3 style="font-weight: bold;">Nouveau Menu de Saison</h3>
-          <p>Découvrez notre nouveau menu printanier, avec des ingrédients frais et locaux de l'Île de Ré.</p>
-        </article>
-        <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-          <h3 style="font-weight: bold;">Événement Crêpes et Musique</h3>
-          <p>Rejoignez-nous ce samedi pour une soirée crêpes avec musique live, dès 19h.</p>
-        </article>
-        <article style="background: #eee7df; padding: 20px; border-radius: 10px;">
-          <h3 style="font-weight: bold;">Ateliers de Crêpes pour Enfants</h3>
-          <p>Inscrivez vos enfants à nos ateliers culinaires pour apprendre l'art de la crêpe!</p>
-        </article>
-      </div>
-    </div>
-    <!-- Newsletter -->
-    <div class="w-full bg-[#eee7df] py-12 px-10 flex flex-col gap-12 items-center">
-      <div style="width: 100%; align-items: center; display: inline-flex">
-        <h2 style="
-              margin: 0 auto;
-              text-align: center;
-              color: #4e342e;
-              font-size: 36px;
-              font-weight: 800;
-              line-height: 40px;
-            ">
-          Newsletter
-        </h2>
-      </div>
-      <div style="
-            align-self: stretch;
-            justify-content: space-between;
-            align-items: center;
-            display: inline-flex;
-          ">
-        <p style="
-              flex: 1 1 0;
-              text-align: center;
-              color: #4e342e;
-              font-size: 30px;
-              font-weight: 600;
-              line-height: 36px;
-            ">
-          Inscrivez-vous à notre newsletter pour recevoir les dernières
-          nouvelles de Crêpe-Riz.
-        </p>
-      </div>
-      <form action="./api/newsletter.php" method="post" class='flex flex-row gap-2 w-full max-w-lg'>
-        <input type="email" name="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Votre email" required />
-        <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>S'inscrire</button>
-      </form>
-    </div>
-
-
-
-
-    <div style=" width: 100%; height: 100%; padding-left: 32px; padding-right: 32px; padding-bottom: 8px; background: #EEE7DF;
-              justify-content: center; display: flex">
-      <div style="justify-content: center; align-items: center; gap: 32px; display: flex">
-        <a href="https://twitter.com/toutencrepe?lang=fr"> <img style="width: 40px; height: 40px; border-radius: 6px" src="images/image4.png" /> </a>
-        <a href="https://www.facebook.com/p/Pot-Detain-100063470441363/"><img style="width: 40px; height: 40px; border-radius: 6px" src="images/image5.png" /></a>
-        <a href="https://www.instagram.com/creperie.saintecroix/?hl=fr"><img style="width: 40px; height: 40px; border-radius: 6px" src="images/image6.png" /></a>
-      </div>
+  </div>
+  <div id="scroll2">
+    <h2>Photo des plats</h2>
+    <div class="images-plats">
+      <img src="images/caption (1).jpg" alt="" />
+      <img src="images/la-sarrasine (3).jpg" alt="" />
+      <img src="images/la-sarrasine (4).jpg" alt="" />
+      <img src="images/photo0jpg (3).jpg" alt="" />
+      <img src="images/photo0jpg (4).jpg" alt="" />
+      <img src="images/photo1jpg.jpg" alt="" />
+      <img src="images/photo2jpg.jpg" alt="" />
+      <img src="images/photo4jpg.jpg" alt="" />
     </div>
   </div>
   </div>
