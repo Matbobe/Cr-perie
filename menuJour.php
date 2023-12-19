@@ -88,7 +88,7 @@
           <a href="./index.php">Accueil</a>
           <a href="./contact.php">Contact</a>
           <a href="./menu.php">Carte</a>
-          <a href="./phototeque.html">Photothèque</a>
+          <a href="./phototeque.php">Photothèque</a>
           <a href="#">Fournisseurs</a>
         </div>
       </div>
