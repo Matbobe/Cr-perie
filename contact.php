@@ -152,10 +152,42 @@
     </div>
 
 
-    <div class="flex flex-col gap-2 px-6 py-8 bg-[#f8f1e9]">
-      <h1>
-        Contactez-nous
-      </h1>
+    <div class="flex flex-col gap-2 px-6 py-8 bg-[#f8f1e9] max-w-lg w-full">
+      <form action="" method="post" class='flex flex-col gap-4'>
+
+        <h1 style="
+              margin: 0 auto;
+              text-align: center;
+              color: #4e342e;
+              font-size: 36px;
+              font-weight: 800;
+              line-height: 40px;
+            ">
+          Nous contacter
+        </h1>
+        <div>
+          <label for="email" class='block mb-2 text-sm font-medium text-gray-900'>Adresse mail</label>
+          <input type="email" name="email"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            placeholder="Votre adresse mail" />
+        </div>
+
+        <div>
+          <label for="name" class='block mb-2 text-sm font-medium text-gray-900'>Objet du message</label>
+          <input type="text" name="name"
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            placeholder="Objet du message" />
+        </div>
+
+        <div>
+          <label for="message" class='block mb-2 text-sm font-medium text-gray-900'>Message</label>
+          <textarea name="message"
+            class="bg-gray-50 border border-gray-300 max-h-[150px] text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            placeholder="Votre message"></textarea>
+        </div>
+
+        <button type="submit" class='px-4 py-2 rounded-lg bg-[#ffb74d]'>Envoyer</button>
+      </form>
     </div>
 
   </div>
