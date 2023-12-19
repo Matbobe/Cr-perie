@@ -239,9 +239,19 @@
         </p>
       </div>
     </div>
-
+    <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
+      <h2 style="
+              margin: 0 auto;
+              text-align: center;
+              color: #4e342e;
+              font-size: 36px;
+              font-weight: 800;
+              line-height: 40px;
+            ">
+        Récompenses
+      </h2>
+    </div>
     <!-- Presentation du personnels -->
-
     <!-- Livre d'or -->
     <div class="px-6 py-8 flex flex-col gap-8 bg-[#f8f1e9]">
       <h2 style="
@@ -296,8 +306,6 @@
         </form>
       </div>
     </div>
-
-
     <div class="actualites-container" style="background: #f8f1e9; padding: 50px;">
       <h2 style=" margin: 0 auto;
               text-align: center;
@@ -322,7 +330,6 @@
         </article>
       </div>
     </div>
-
     <!-- Newsletter -->
     <div class="w-full bg-[#eee7df] py-12 px-10 flex flex-col gap-12 items-center">
       <div style="width: 100%; align-items: center; display: inline-flex">
